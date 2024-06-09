@@ -1,0 +1,147 @@
+html {
+    background-color: #ddc9b5;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-family: Young Serif, sans-serif;
+    font-weight: 400;
+    color: #32201a;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: Young Serif, sans-serif;
+    font-weight: 400;
+    color: #653f18;
+    font-size: 28px;
+}
+
+h3 {
+    font-family: Outfit, sans-serif;
+    color: #51273b;
+    margin: 5px;
+}
+
+span {
+    color: #56524e;
+    font-weight: bold;
+}
+
+.destaque {
+    height: auto;
+    width: 80%;
+    background-color: #fa007d0f;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.destaque li {
+    padding: 8px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 5% 29% 10% 29%;
+    padding-top: 50px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    color: rgb(51, 52, 52);
+}
+
+header img {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+section {
+    width: 88%;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 8%;
+    font-family: Outfit, sans-serif;
+}
+
+.ingredientes li{
+    padding: 8px 10px 0px 15px;
+}
+ 
+.divisao {
+    border-bottom: 1px solid #46464633;
+    margin: 20px;
+}
+
+.lista ol li {
+    padding: 5px 20px 0px 20px;
+}
+
+.lista ol li::marker {
+    font-weight: bold;
+    color: #5b3c32;
+}
+
+.tabela {
+    border-collapse: collapse; /* Remove o espaço entre as bordas das células */
+    width: 100%;
+}
+
+.tabela td {
+    padding: 15px 0px 15px 25px ;
+}
+
+.tabela tr:not(:last-child) {
+    border-bottom: 1px solid rgba(45, 45, 45, 0.259); /* Adiciona uma linha preta grande entre as linhas */
+}
+
+.macros {
+    color: #804307;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    html {
+        padding-bottom: 0;
+    }
+
+    body {
+        border-radius: 0;
+        margin: 0;
+        padding-top: 0;
+    }
+
+    main {
+        border-radius: 0;
+        margin: 0; /* Ajusta as margens para dispositivos móveis */
+        padding: 20px; /* Ajusta o padding para dispositivos móveis */
+    } 
+
+    section {
+        width: 100%; /* A largura das seções ocupa 100% para dispositivos móveis */
+        margin: 0; /* Ajusta a margem para dispositivos móveis */
+    }
+
+    header img {
+        width: 100%; /* A largura da imagem ocupa 100% para dispositivos móveis */
+        max-width: none; /* Remove o limite máximo de largura para dispositivos móveis */
+        height: auto;
+        border-radius: 0;
+        margin: 0; /* Ajusta a margem para dispositivos móveis */
+    }
+
+    .destaque {
+        height: auto;
+        width: 80%;
+        background-color: #fa007d0f;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 20px;
+    }
+
+    .tabela {
+        margin-bottom: 50px; /* Ajusta a margem inferior da tabela para dispositivos móveis */
+    }
+}
